@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Random Number Generator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div id="main-container">
+            <h1 id="main-text" class="main-text">Random Number Generator</h1>
+            <div id="inputs-container">
+                <label class='main-text' for="min-num">Select The Minimum Number:
+                    <input type="number" id="min-num" name="min-num"/>
+                </label>
+                <label class="main-text" for="max-num">Select The Maximum Number:
+                    <input type="number" id="max-num" name="max-num"/>
+                </label>
+            </div>
+            <button id="generate-btn">Generate</button>
+            <label class="main-text" for="decimals-btn">Allow decimals
+                <input type="checkbox" id="decimals-btn" name="floats-btn"/>
+            </label>
+            <p id="results-container"></p>
+        </div>
+    </main>
+</body>
+</html>
